@@ -1,0 +1,2 @@
+D:\利兹第一年\Compiler\CW3_SymbolTable\self_grader\SelfGrader\Debug\SelfGrader.exe
+D:\利兹第一年\Compiler\CW3_SymbolTable\self_grader\SelfGrader\Debug\SelfGrader.pdb
