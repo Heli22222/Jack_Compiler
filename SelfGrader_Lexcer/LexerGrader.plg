@@ -1,0 +1,90 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: LexerGrader - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\22726\AppData\Local\Temp\RSP7557.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/LexerGrader.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c"
+]
+Creating command line "cl.exe @C:\Users\22726\AppData\Local\Temp\RSP7557.tmp" 
+Creating temporary file "C:\Users\22726\AppData\Local\Temp\RSP7567.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/LexerGrader.pdb" /debug /machine:I386 /out:"Debug/LexerGrader.exe" /pdbtype:sept 
+".\Debug\LexerGrader.obj"
+]
+Creating command line "link.exe @C:\Users\22726\AppData\Local\Temp\RSP7567.tmp"
+<h3>Output Window</h3>
+Compiling...
+LexerGrader.c
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(119) : error C2143: syntax error : missing ';' before 'type'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(119) : error C2143: syntax error : missing ';' before 'type'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(119) : error C2143: syntax error : missing ')' before 'type'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(119) : error C2143: syntax error : missing ';' before 'type'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(119) : error C2065: 'j' : undeclared identifier
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(119) : warning C4552: '<' : operator has no effect; expected operator with side-effect
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(119) : error C2059: syntax error : ')'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(120) : error C2143: syntax error : missing ';' before '{'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(126) : error C2275: 'FILE' : illegal use of this type as an expression
+        d:\program files (x86)\microsoft visual studio\vc98\include\stdio.h(156) : see declaration of 'FILE'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(126) : error C2065: 'tfile' : undeclared identifier
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(133) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(133) : warning C4024: 'fread' : different types for formal and actual parameter 4
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(134) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(134) : warning C4024: 'fread' : different types for formal and actual parameter 4
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(135) : warning C4047: 'function' : 'struct _iobuf *' differs in levels of indirection from 'int '
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(135) : warning C4024: 'fclose' : different types for formal and actual parameter 1
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(140) : error C2275: 'Token' : illegal use of this type as an expression
+        d:\利兹第一年\compiler\cw1_lexer\selfgrader\lexer.h(21) : see declaration of 'Token'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(140) : error C2146: syntax error : missing ';' before identifier 't'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(140) : error C2065: 't' : undeclared identifier
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(140) : error C2115: '=' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(141) : error C2143: syntax error : missing ';' before 'type'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(142) : error C2224: left of '.tp' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(142) : error C2065: 'i' : undeclared identifier
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(144) : error C2224: left of '.tp' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(144) : error C2224: left of '.ln' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(144) : error C2224: left of '.lx' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(144) : error C2198: 'strcmp' : too few actual parameters
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(148) : error C2115: 'function' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(148) : warning C4024: 'PrintToken' : different types for formal and actual parameter 1
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(155) : error C2115: '=' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(157) : error C2224: left of '.tp' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(161) : error C2115: 'function' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(161) : warning C4024: 'PrintToken' : different types for formal and actual parameter 1
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(173) : error C2275: 'Token' : illegal use of this type as an expression
+        d:\利兹第一年\compiler\cw1_lexer\selfgrader\lexer.h(21) : see declaration of 'Token'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(173) : error C2146: syntax error : missing ';' before identifier 'q'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(173) : error C2065: 'q' : undeclared identifier
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(173) : error C2115: '=' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(174) : error C2275: 'Token' : illegal use of this type as an expression
+        d:\利兹第一年\compiler\cw1_lexer\selfgrader\lexer.h(21) : see declaration of 'Token'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(174) : error C2146: syntax error : missing ';' before identifier 't'
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(174) : error C2115: '=' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(175) : error C2224: left of '.tp' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(177) : error C2224: left of '.tp' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(177) : error C2224: left of '.tp' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(177) : error C2224: left of '.ln' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(177) : error C2224: left of '.ln' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(177) : error C2224: left of '.lx' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(177) : error C2224: left of '.lx' must have struct/union type
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(177) : error C2198: 'strcmp' : too few actual parameters
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(181) : error C2115: 'function' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(181) : warning C4024: 'PrintToken' : different types for formal and actual parameter 1
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(183) : error C2115: 'function' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(183) : warning C4024: 'PrintToken' : different types for formal and actual parameter 1
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(187) : error C2115: '=' : incompatible types
+D:\利兹第一年\Compiler\CW1_Lexer\SelfGrader\LexerGrader.c(188) : error C2115: '=' : incompatible types
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+LexerGrader.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
